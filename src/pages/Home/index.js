@@ -7,6 +7,7 @@ import isEmpty from 'lodash/isEmpty';
 
 export const Home = () => {
   const { tweets } = useTweets();
+
   return (
     <Container maxWidth="md">
       <Box my={5}>
