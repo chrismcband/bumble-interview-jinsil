@@ -3,7 +3,7 @@ import { TweetCard } from '..';
 import PropTypes from 'prop-types';
 
 const TweetList = ({ tweets }) => {
-  return tweets.map((tweet) => <TweetCard {...tweet} key={tweet.id} />);
+  return tweets.map((tweet) => <TweetCard {...tweet} key={tweets.id} />);
 };
 
 TweetList.propTypes = {
